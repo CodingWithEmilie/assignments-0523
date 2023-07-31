@@ -63,6 +63,15 @@ console.log(
     ],
     "motorcycle"
   )
-); // [3, 1]
+); 
+// [3, 1] or
+// [0, 3] or
+// [0, 4] or
+// [4, 4] or
+// [0, 5] or
+// [2, 5] or
+// [3, 5] or
+// [5, 5] or
+// [5, 5]
 
 module.exports = whereCanIPark;
