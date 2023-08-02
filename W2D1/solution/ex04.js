@@ -16,7 +16,7 @@ const instructorWithLongestName = function (instructors) {
   // loop through each instructor
   instructors.forEach((element, index) => {
     // compare the length of name
-    if (element.name.length > longest.length) {
+    if (element.name.length > instructors[longest].length) {
       // if longer, replace instructor
       longest = index;
     }
